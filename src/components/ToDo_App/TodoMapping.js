@@ -5,7 +5,8 @@ function TodoMapping(props) {
   return (
     <div>
       {props.Todo.map((X, index) => (
-        <TodoMapping_2 key={index} OnTodo={X} />
+        <p key={index}>{X}</p>
+        // <TodoMapping_2 key={index} OnTodo={X} />
       ))}
     </div>
   );
