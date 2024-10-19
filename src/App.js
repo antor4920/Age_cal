@@ -5,6 +5,8 @@ import UseState_Hook from "./components/React_Hooks/UseState_Hook";
 import Parent from "./components/Data_Shareing/Parent";
 import Home from "./components/ToDo_App/Home";
 import Main_page from "./components/ToDo2/Main_page";
+import Formik from "./components/Formik/Formik";
+import Control from "./components/Formik/Control";
 
 function App() {
   return (
@@ -15,7 +17,10 @@ function App() {
       {/* <UseState_Hook /> */}
       {/* <Parent /> */}
       {/* <Home /> */}
-      <Main_page />
+      {/* <Main_page /> */}
+      <Formik />
+      <p></p>
+      <Control />
     </div>
   );
 }
