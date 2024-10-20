@@ -7,6 +7,7 @@ import Home from "./components/ToDo_App/Home";
 import Main_page from "./components/ToDo2/Main_page";
 import Formik from "./components/Formik/Formik";
 import Control from "./components/Formik/Control";
+import Toggle from "./components/Toggle/Toggle";
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
       {/* <Parent /> */}
       {/* <Home /> */}
       {/* <Main_page /> */}
-      <Formik />
-      <p></p>
-      <Control />
+      {/* <Formik /> */}
+      {/* <Control /> */}
+      <Toggle />
     </div>
   );
 }
