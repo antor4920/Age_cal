@@ -4,8 +4,7 @@ import style from "./Toggle.module.css";
 const Toggle = () => {
   let para =
     "My name is antor. I am form narsingdi,dhaka. I have done my Bachelor from mmdu.";
-  const [toggle, settoggle] = useState(false);
-
+  const [toggle, settoggle] = useState(true);
   return (
     <div className={style.mainDiv}>
       <p>{toggle && para}</p>
