@@ -9,6 +9,7 @@ import Formik from "./components/Formik/Formik";
 import Control from "./components/Formik/Control";
 import Toggle from "./components/Toggle/Toggle";
 import Toastify from "./components/React_Toastify/Toastify";
+import Use_Ref from "./components/Ref_in_Class_component/Use_Ref";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <Formik /> */}
       {/* <Control /> */}
       {/* <Toggle /> */}
-      <Toastify />
+      {/* <Toastify /> */}
+      <Use_Ref />
     </div>
   );
 }
