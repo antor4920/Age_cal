@@ -1,5 +1,7 @@
 import React from "react";
 
+import PerticularMapping from "./PerticularMapping";
+
 function TaskMapping(props) {
   return (
     <div>
