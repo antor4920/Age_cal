@@ -3,27 +3,23 @@ import React, { Component, createRef } from "react";
 class Use_Ref extends Component {
   constructor(props) {
     super(props);
-    this.UseRef = createRef();
+    this.MyRef = createRef();
     this.state = {};
   }
-  Submit = (e) => {
-    e.preventDefault();
-    console.log(this.UseRef.current.value);
+
+  Submit = (event) => {
+    event.preventDefault();
+    console.log(this.MyRef.current.value);
   };
 
   render() {
     return (
-      <div>
-        <form onSubmit={this.Submit}>
-          <div>
-            <label htmlFor="UserName">User Name</label>
-            <input type="Name" id="Name" ref={this.UseRef} />
-          </div>
-          <button type="Submit">Register</button>
-        </form>
-      </div>
+      <form onSubmit={this.Submit}>
+        <label>Name</label>
+        <input type="name" ref={this.MyRef} />
+        <button>Submit</button>
+      </form>
     );
   }
 }
-
 export default Use_Ref;
