@@ -19,8 +19,18 @@ const UseReducer = () => {
   return (
     <div>
       <h1>Counter : {Count}</h1>
-      <button onClick={() => dispatch("increment")}>Increment</button>
-      <button onClick={() => dispatch("dicrement")}>dicrement</button>
+      <button
+        onClick={() => dispatch("increment")}
+        disabled={Count === 10 ? true : false}
+      >
+        Increment
+      </button>
+      <button
+        onClick={() => dispatch("dicrement")}
+        disabled={Count === -5 ? true : false}
+      >
+        dicrement
+      </button>
     </div>
   );
 };
