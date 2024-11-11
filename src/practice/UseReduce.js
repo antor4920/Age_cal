@@ -1,33 +1,55 @@
 import { type } from "@testing-library/user-event/dist/type";
 import React, { useReducer } from "react";
 
-let initialState = "";
-
+let initialState = { name: "", password: 0 };
 const reduce = (state, action) => {
-  return action.nextName;
+  switch (action.type) {
+    case "Name_text": {
+      return { ...state, name: action.NextName, password: state.password };
+    }
+    case "password_text": {
+      return { ...state, name: state.name, password: action.NextPass };
+    }
+  }
 };
 
+// const Display = (props) => {
+//   return (
+//     <div>
+//       <h3>{props.name} </h3>
+//       <p> </p>
+//     </div>
+//   );
+// };
 const UseReduce = () => {
   const [text, dispatch] = useReducer(reduce, initialState);
 
-  let handlesubmit = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     console.log(text);
   };
-
   return (
-    <div>
-      <form onSubmit={handlesubmit}>
-        <label>name</label>
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label>Name</label>
         <input
-          type="name"
+          type="text"
           onChange={(event) =>
-            dispatch({ type: "name_change", nextName: event.target.value })
+            dispatch({ type: "Name_text", NextName: event.target.value })
           }
         />
-        <button type="submit">Add</button>
-      </form>
-    </div>
+      </div>
+      <div>
+        <label>Password</label>
+        <input
+          type="password"
+          onChange={(event) =>
+            dispatch({ type: "password_text", NextPass: event.target.value })
+          }
+        />
+      </div>
+      <button>Add Name</button>
+    </form>
   );
 };
 
