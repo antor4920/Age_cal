@@ -4,7 +4,7 @@ import { Context } from "./UserContext";
 import Child1 from "./child1";
 
 const Main = () => {
-  const Name = ["antor", "ali"];
+  const Name = ["Antor", 25];
 
   return (
     <div>
