@@ -13,7 +13,7 @@ import Use_Ref from "./components/Ref_in_Class_component/Use_Ref";
 import UseRefHook from "./components/Hooks/UseRefHook";
 import UseReducer from "./components/Hooks/UseReducer";
 import UseReduce from "./practice/UseReduce";
-
+import Main from "./components/Hooks/Use_context/main";
 function App() {
   return (
     <div className="App">
@@ -31,7 +31,8 @@ function App() {
       {/* <Use_Ref /> */}
       {/* <UseRefHook /> */}
       {/* <UseReducer /> */}
-      <UseReduce />
+      {/* <UseReduce /> */}
+      <Main />
     </div>
   );
 }
