@@ -1,20 +1,21 @@
-import Count from "./components/Count";
-import Condition_rendering from "./components/Condition-Rendering/Condition_rendering";
-import Onchange from "./components/Onchange_And_event_Binding/Onchange";
-import UseState_Hook from "./components/Hooks/UseState_Hook";
-import Parent from "./components/Data_Shareing/Parent";
-import Home from "./components/ToDo_App/Home";
-import Main_page from "./components/ToDo2/Main_page";
-import Formik from "./components/Formik/Formik";
-import Control from "./components/Formik/Control";
-import Toggle from "./components/Toggle/Toggle";
-import Toastify from "./components/React_Toastify/Toastify";
-import Use_Ref from "./components/Ref_in_Class_component/Use_Ref";
-import UseRefHook from "./components/Hooks/UseRefHook";
-import UseReducer from "./components/Hooks/UseReducer";
-import UseReduce from "./practice/UseReduce";
-import Main from "./components/Hooks/Use_context/main";
+// import Count from "./components/Count";
+// import Condition_rendering from "./components/Condition-Rendering/Condition_rendering";
+// import Onchange from "./components/Onchange_And_event_Binding/Onchange";
+// import UseState_Hook from "./components/Hooks/UseState_Hook";
+// import Parent from "./components/Data_Shareing/Parent";
+// import Home from "./components/ToDo_App/Home";
+// import Main_page from "./components/ToDo2/Main_page";
+// import Formik from "./components/Formik/Formik";
+// import Control from "./components/Formik/Control";
+// import Toggle from "./components/Toggle/Toggle";
+// import Toastify from "./components/React_Toastify/Toastify";
+// import Use_Ref from "./components/Ref_in_Class_component/Use_Ref";
+// import UseRefHook from "./components/Hooks/UseRefHook";
+// import UseReducer from "./components/Hooks/UseReducer";
+// import UseReduce from "./practice/UseReduce";
+// import Main from "./components/Hooks/Use_context/main";
 import Delete from "./practice/Delete";
+import PracticeTailwind from "./practice/PracticeTailwind";
 function App() {
   return (
     <div className="App">
@@ -34,7 +35,8 @@ function App() {
       {/* <UseReducer /> */}
       {/* <UseReduce /> */}
       {/* <Main /> */}
-      <Delete />
+      {/* <Delete /> */}
+      <PracticeTailwind />
     </div>
   );
 }
