@@ -7,7 +7,7 @@ const PracticeTailwind = () => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem,
         beatae.
       </p>
-      <div className="h-40 w-40 bg-blue-300 flex justify-center m-4 items-center">
+      <div className="h-40 w-40 bg-blue-500 flex justify-center m-4 items-center">
         Antor
       </div>
     </div>
