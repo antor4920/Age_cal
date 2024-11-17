@@ -2,15 +2,27 @@ import React from "react";
 
 const PracticeTailwind = () => {
   return (
-    <div>
-      <p className="text-black bg-slate-500 border-red-600 m-4 rounded-sm border-solid border-2">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem,
-        beatae.
-      </p>
-      <div className="h-40 w-40 bg-blue-500 flex justify-center m-4 items-center">
-        Antor
+    <nav className="bg-gray-400 w-full h-16 flex justify-between px-10 items-center">
+      <div>
+        <ul className="flex [&>*]:mx-4">
+          <li className="">
+            <a href="home">Home</a>
+          </li>
+          <li>
+            <a href="home">Products</a>
+          </li>
+          <li>
+            <a href="home">About</a>
+          </li>
+          <li>
+            <a href="home">Contact</a>
+          </li>
+        </ul>
       </div>
-    </div>
+      <button className="bg-black text-white w-[120px] h-[35px] rounded-md">
+        Download
+      </button>
+    </nav>
   );
 };
 
