@@ -26,7 +26,11 @@ const PracticeTailwind = () => {
       </nav>
       <div>
         <div className="bg-red-300 h-[200px] w-[200px] hover:rotate-180  hover:translate-x-[380px] hover:translate-y-[40px] transition duration-[3000ms]">
-          <div className="bg-red-500 h-[150px] w-[150px] "></div>
+          <div className="bg-red-500 h-[150px] w-[150px] ">
+            <p className="hover:rotate-180 transition duration-[3000ms] text-center">
+              Put the mouse here!
+            </p>
+          </div>
         </div>
       </div>
     </div>
