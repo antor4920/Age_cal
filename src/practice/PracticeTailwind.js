@@ -33,6 +33,15 @@ const PracticeTailwind = () => {
           </div>
         </div>
       </div>
+
+      {/* <-----Form-----> */}
+
+      <div className="flex justify-center items-center w-full">
+        <div className="w-[1000px] h-[624px] bg-slate-200 flex gap-2 justify-center items-center border-solid border-2 border-black md:felx-col">
+          <div className="w-[450px] h-[560px] bg-slate-600"></div>
+          <div className="w-[450px] h-[560px] bg-slate-600"></div>
+        </div>
+      </div>
     </div>
   );
 };
