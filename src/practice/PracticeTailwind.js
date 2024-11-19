@@ -36,10 +36,12 @@ const PracticeTailwind = () => {
 
       {/* <-----Form-----> */}
 
-      <div className="flex justify-center items-center w-full">
-        <div className="w-[1000px] h-[624px] bg-slate-200 flex gap-2 justify-center items-center border-solid border-2 border-black md:felx-col">
-          <div className="w-[450px] h-[560px] bg-slate-600"></div>
-          <div className="w-[450px] h-[560px] bg-slate-600"></div>
+      <div className=" h-[500px] w-full border-solid border-2 border-black relative ">
+        <div className=" h-[300px] w-1/2 border-solid border-2 border-black absolute">
+          <div className=" h-[100px] w-[100px] border-solid border-2 border-black absolute right-20 sm:w-[200px] sm:h-[200px] transition-all duration-500 "></div>
+          <button className="bg-black text-white w-[500px] h-[35px] rounded-md">
+            =
+          </button>
         </div>
       </div>
     </div>

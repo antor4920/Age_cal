@@ -15,6 +15,7 @@
 // import UseReduce from "./practice/UseReduce";
 // import Main from "./components/Hooks/Use_context/main";
 import Delete from "./practice/Delete";
+import NewTailwind from "./practice/NewTailwind";
 import PracticeTailwind from "./practice/PracticeTailwind";
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <UseReduce /> */}
       {/* <Main /> */}
       {/* <Delete /> */}
-      <PracticeTailwind />
+      {/* <PracticeTailwind /> */}
+      <NewTailwind />
     </div>
   );
 }
