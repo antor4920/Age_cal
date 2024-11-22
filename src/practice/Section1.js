@@ -9,7 +9,7 @@ const Section1 = () => {
         <h1 className="font-extrabold text-2xl text-green-600">
           Jahidul hasna Antor
         </h1>
-        <p className="text-green-950">
+        <p className="text-green-800">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, amet?
         </p>
       </div>
