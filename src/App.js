@@ -14,6 +14,8 @@
 // import UseReducer from "./components/Hooks/UseReducer";
 // import UseReduce from "./practice/UseReduce";
 // import Main from "./components/Hooks/Use_context/main";
+import Again from "./components/Again";
+import UseState from "./components/UseState";
 import Delete from "./practice/Delete";
 import NewTailwind from "./practice/NewTailwind";
 import PracticeTailwind from "./practice/PracticeTailwind";
@@ -38,7 +40,9 @@ function App() {
       {/* <Main /> */}
       {/* <Delete /> */}
       {/* <PracticeTailwind /> */}
-      <NewTailwind />
+      {/* <NewTailwind /> */}
+      {/* <Again /> */}
+      <UseState />
     </div>
   );
 }
