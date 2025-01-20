@@ -15,13 +15,15 @@
 // import UseReduce from "./practice/UseReduce";
 // import Main from "./components/Hooks/Use_context/main";
 import Again from "./components/Again";
+import ControlComponent from "./components/controlComponent";
 import UseState from "./components/UseState";
+import UseStatewithObjects from "./components/UseStatewithObjects";
 import Delete from "./practice/Delete";
 import NewTailwind from "./practice/NewTailwind";
 import PracticeTailwind from "./practice/PracticeTailwind";
 function App() {
   return (
-    <div className="App">
+    <div className="flex justify-center items-center h-screen">
       {/* <Count/> */}
       {/* <Condition_rendering /> */}
       {/* <Onchange /> */}
@@ -42,7 +44,9 @@ function App() {
       {/* <PracticeTailwind /> */}
       {/* <NewTailwind /> */}
       {/* <Again /> */}
-      <UseState />
+      {/* <UseState /> */}
+      {/* <ControlComponent /> */}
+      <UseStatewithObjects />
     </div>
   );
 }
