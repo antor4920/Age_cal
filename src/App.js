@@ -16,6 +16,9 @@
 // import Main from "./components/Hooks/Use_context/main";
 import Again from "./components/Again";
 import ControlComponent from "./components/controlComponent";
+import Formik from "./components/formik";
+import Togglee from "./components/Togglee";
+import UseE from "./components/useEF";
 import UseState from "./components/UseState";
 import UseStatewithObjects from "./components/UseStatewithObjects";
 import Delete from "./practice/Delete";
@@ -46,7 +49,10 @@ function App() {
       {/* <Again /> */}
       {/* <UseState /> */}
       {/* <ControlComponent /> */}
-      <UseStatewithObjects />
+      {/* <UseStatewithObjects /> */}
+      {/* <Formik /> */}
+      {/* <Togglee /> */}
+      <UseE />
     </div>
   );
 }
