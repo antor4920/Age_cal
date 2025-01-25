@@ -14,6 +14,7 @@
 // import UseReducer from "./components/Hooks/UseReducer";
 // import UseReduce from "./practice/UseReduce";
 // import Main from "./components/Hooks/Use_context/main";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Again from "./components/Again";
 import ControlComponent from "./components/controlComponent";
 import Formik from "./components/formik";
@@ -24,9 +25,18 @@ import UseStatewithObjects from "./components/UseStatewithObjects";
 import Delete from "./practice/Delete";
 import NewTailwind from "./practice/NewTailwind";
 import PracticeTailwind from "./practice/PracticeTailwind";
+import Error from "./components/Error";
 function App() {
   return (
     <div className="flex justify-center items-center h-screen">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/controlecomponent" element={<ControlComponent />} />
+          <Route path="/Formik" element={<Formik />} />
+          <Route path="/Togglee" element={<Togglee />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </BrowserRouter>
       {/* <Count/> */}
       {/* <Condition_rendering /> */}
       {/* <Onchange /> */}
@@ -48,11 +58,11 @@ function App() {
       {/* <NewTailwind /> */}
       {/* <Again /> */}
       {/* <UseState /> */}
-      {/* <ControlComponent /> */}
+
       {/* <UseStatewithObjects /> */}
-      {/* <Formik /> */}
-      {/* <Togglee /> */}
-      <UseE />
+      {/*  */}
+      {/*  */}
+      {/* <UseE /> */}
     </div>
   );
 }
