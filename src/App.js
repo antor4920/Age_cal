@@ -26,17 +26,21 @@ import Delete from "./practice/Delete";
 import NewTailwind from "./practice/NewTailwind";
 import PracticeTailwind from "./practice/PracticeTailwind";
 import Error from "./components/Error";
+import CardSlider from "./practice/CardSlider";
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <BrowserRouter>
+    // <div className="flex justify-center items-center h-screen">
+    <div className="flex items-center justify-center min-h-screen bg-gray-900">
+      <CardSlider />
+
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/controlecomponent" element={<ControlComponent />} />
           <Route path="/Formik" element={<Formik />} />
           <Route path="/Togglee" element={<Togglee />} />
           <Route path="*" element={<Error />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       {/* <Count/> */}
       {/* <Condition_rendering /> */}
       {/* <Onchange /> */}
